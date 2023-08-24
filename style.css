@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+body {
+  color: rgb(255, 255, 255);
+}
+.page1 {
+  background: url(./Asset/header-image.png);
+  object-fit: cover;
+  width: 98.9vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  filter: brightness(0.8);
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.head-left {
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.head-right {
+  margin: 30px 50px 0px 0px;
+}
+#sel {
+  font-size: 18px;
+  padding: 5px 10px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+button {
+  font-size: 15px;
+  padding: 7px 15px;
+  font-weight: 700;
+  background-color: #e50914;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #e50914;
+}
+button:hover {
+  background-color: #930a11;
+  border: 1px solid #930a11;
+}
+.main {
+  margin: 15% 0px 0px 0px;
+  text-align: center;
+}
+.main p {
+  font-size: 30px;
+  font-weight: 500;
+}
+.main h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.btns2,
+.btns3 {
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.page2,
+.page3 {
+  display: flex;
+  background: black;
+  overflow: hidden;
+  border-top: 8px solid rgb(79, 77, 77);
+}
+.page2-left {
+  margin: 15% 0px 0px 12%;
+}
+.page2-left h1,
+.page3-right h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+.page2-left p,
+.page3-right p {
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.page2-right {
+  margin: 5% 12% 7% 0px;
+}
+.page3-left img {
+  height: 50vh;
+  margin: 30% 12% 26% 40%;
+}
+.page3-right {
+  margin: 12% 15% 0px 15%;
+}
+.faq {
+  background: black;
+  overflow: hidden;
+  border-top: 8px solid rgb(79, 77, 77);
+}
+.box {
+  display: flex;
+  height: 80px;
+  width: 70%;
+  background-color: #2d2d2d;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  margin-left: 15%;
+  cursor: pointer;
+}
+.box:hover {
+  background-color: #3c3b3b;
+}
+
+.box p {
+  font-size: 70px;
+  font-weight: lighter;
+  margin-right: 20px;
+}
+.box h1 {
+  font-size: 30px;
+  margin: 25px 0px 0px 40px;
+  font-weight: 100;
+}
+.faq-div h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.btns3 {
+  margin: 3% 0px 5% 40%;
+}
+footer {
+  display: flex;
+  background: black;
+  overflow: hidden;
+  border-top: 8px solid rgb(79, 77, 77);
+}
+.one {
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+.one a {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
